@@ -1,0 +1,285 @@
+[2017-04-30T05:28:13,540][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.RuntimeException: can not run elasticsearch as root
+	at org.elasticsearch.bootstrap.Bootstrap.initializeNatives(Bootstrap.java:106) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:204) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:360) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:123) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:114) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:58) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [elasticsearch-5.3.2.jar:5.3.2]
+[2017-04-30T05:28:13,560][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.RuntimeException: can not run elasticsearch as root
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:127) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:114) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:58) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[elasticsearch-5.3.2.jar:5.3.2]
+Caused by: java.lang.RuntimeException: can not run elasticsearch as root
+	at org.elasticsearch.bootstrap.Bootstrap.initializeNatives(Bootstrap.java:106) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:204) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:360) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:123) ~[elasticsearch-5.3.2.jar:5.3.2]
+	... 6 more
+[2017-04-30T05:28:44,097][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.RuntimeException: can not run elasticsearch as root
+	at org.elasticsearch.bootstrap.Bootstrap.initializeNatives(Bootstrap.java:106) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:204) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:360) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:123) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:114) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:58) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [elasticsearch-5.3.2.jar:5.3.2]
+[2017-04-30T05:28:44,116][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.RuntimeException: can not run elasticsearch as root
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:127) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:114) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:58) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[elasticsearch-5.3.2.jar:5.3.2]
+Caused by: java.lang.RuntimeException: can not run elasticsearch as root
+	at org.elasticsearch.bootstrap.Bootstrap.initializeNatives(Bootstrap.java:106) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:204) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:360) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:123) ~[elasticsearch-5.3.2.jar:5.3.2]
+	... 6 more
+[2017-04-30T05:32:58,261][ERROR][o.e.b.Bootstrap          ] Exception
+java.lang.RuntimeException: can not run elasticsearch as root
+	at org.elasticsearch.bootstrap.Bootstrap.initializeNatives(Bootstrap.java:106) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:204) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:360) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:123) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:114) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:58) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [elasticsearch-5.3.2.jar:5.3.2]
+[2017-04-30T05:32:58,283][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: java.lang.RuntimeException: can not run elasticsearch as root
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:127) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:114) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:58) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[elasticsearch-5.3.2.jar:5.3.2]
+Caused by: java.lang.RuntimeException: can not run elasticsearch as root
+	at org.elasticsearch.bootstrap.Bootstrap.initializeNatives(Bootstrap.java:106) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:204) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:360) ~[elasticsearch-5.3.2.jar:5.3.2]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:123) ~[elasticsearch-5.3.2.jar:5.3.2]
+	... 6 more
+[2017-04-30T05:34:38,786][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-04-30T05:34:39,020][INFO ][o.e.e.NodeEnvironment    ] [qP3eFcg] using [1] data paths, mounts [[/ (/dev/sda)]], net usable_space [1.9gb], net total_space [23.3gb], spins? [possibly], types [ext4]
+[2017-04-30T05:34:39,022][INFO ][o.e.e.NodeEnvironment    ] [qP3eFcg] heap size [247.6mb], compressed ordinary object pointers [true]
+[2017-04-30T05:34:39,028][INFO ][o.e.n.Node               ] node name [qP3eFcg] derived from node ID [qP3eFcgvQIaqAqmH3ZoHEg]; set [node.name] to override
+[2017-04-30T05:34:39,028][INFO ][o.e.n.Node               ] version[5.3.2], pid[20761], build[3068195/2017-04-24T16:15:59.481Z], OS[Linux/4.9.7-x86_64-linode80/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-04-30T05:34:41,136][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [aggs-matrix-stats]
+[2017-04-30T05:34:41,144][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [ingest-common]
+[2017-04-30T05:34:41,144][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-expression]
+[2017-04-30T05:34:41,145][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-groovy]
+[2017-04-30T05:34:41,145][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-mustache]
+[2017-04-30T05:34:41,145][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-painless]
+[2017-04-30T05:34:41,146][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [percolator]
+[2017-04-30T05:34:41,146][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [reindex]
+[2017-04-30T05:34:41,147][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [transport-netty3]
+[2017-04-30T05:34:41,147][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [transport-netty4]
+[2017-04-30T05:34:41,149][INFO ][o.e.p.PluginsService     ] [qP3eFcg] no plugins loaded
+[2017-04-30T05:34:46,043][INFO ][o.e.n.Node               ] initialized
+[2017-04-30T05:34:46,044][INFO ][o.e.n.Node               ] [qP3eFcg] starting ...
+[2017-04-30T05:34:46,425][WARN ][i.n.u.i.MacAddressUtil   ] Failed to find a usable hardware address from the network interfaces; using random bytes: 65:83:fc:68:81:6e:93:8c
+[2017-04-30T05:34:46,566][INFO ][o.e.t.TransportService   ] [qP3eFcg] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-04-30T05:34:46,602][WARN ][o.e.b.BootstrapChecks    ] [qP3eFcg] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2017-04-30T05:34:46,609][WARN ][o.e.b.BootstrapChecks    ] [qP3eFcg] max number of threads [1024] for user [elasticsearch] is too low, increase to at least [2048]
+[2017-04-30T05:34:49,748][INFO ][o.e.c.s.ClusterService   ] [qP3eFcg] new_master {qP3eFcg}{qP3eFcgvQIaqAqmH3ZoHEg}{PT0kfcYdTEizDU8V2hzh2w}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-04-30T05:34:49,843][INFO ][o.e.h.n.Netty4HttpServerTransport] [qP3eFcg] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-04-30T05:34:49,842][INFO ][o.e.g.GatewayService     ] [qP3eFcg] recovered [0] indices into cluster_state
+[2017-04-30T05:34:49,848][INFO ][o.e.n.Node               ] [qP3eFcg] started
+[2017-04-30T05:35:19,828][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:35:19,829][INFO ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2017-04-30T05:35:49,856][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:36:19,863][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:36:19,863][INFO ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2017-04-30T05:36:49,869][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:37:19,876][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:37:19,876][INFO ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2017-04-30T05:37:49,881][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:38:09,233][INFO ][o.e.n.Node               ] [qP3eFcg] stopping ...
+[2017-04-30T05:38:09,252][INFO ][o.e.n.Node               ] [qP3eFcg] stopped
+[2017-04-30T05:38:09,253][INFO ][o.e.n.Node               ] [qP3eFcg] closing ...
+[2017-04-30T05:38:09,279][INFO ][o.e.n.Node               ] [qP3eFcg] closed
+[2017-04-30T05:40:51,968][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-04-30T05:40:52,125][INFO ][o.e.e.NodeEnvironment    ] [qP3eFcg] using [1] data paths, mounts [[/ (/dev/sda)]], net usable_space [1.9gb], net total_space [23.3gb], spins? [possibly], types [ext4]
+[2017-04-30T05:40:52,126][INFO ][o.e.e.NodeEnvironment    ] [qP3eFcg] heap size [247.6mb], compressed ordinary object pointers [true]
+[2017-04-30T05:40:52,129][INFO ][o.e.n.Node               ] node name [qP3eFcg] derived from node ID [qP3eFcgvQIaqAqmH3ZoHEg]; set [node.name] to override
+[2017-04-30T05:40:52,129][INFO ][o.e.n.Node               ] version[5.3.2], pid[21043], build[3068195/2017-04-24T16:15:59.481Z], OS[Linux/4.9.7-x86_64-linode80/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-04-30T05:40:54,199][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [aggs-matrix-stats]
+[2017-04-30T05:40:54,200][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [ingest-common]
+[2017-04-30T05:40:54,203][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-expression]
+[2017-04-30T05:40:54,203][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-groovy]
+[2017-04-30T05:40:54,203][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-mustache]
+[2017-04-30T05:40:54,203][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-painless]
+[2017-04-30T05:40:54,204][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [percolator]
+[2017-04-30T05:40:54,204][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [reindex]
+[2017-04-30T05:40:54,204][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [transport-netty3]
+[2017-04-30T05:40:54,205][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [transport-netty4]
+[2017-04-30T05:40:54,206][INFO ][o.e.p.PluginsService     ] [qP3eFcg] no plugins loaded
+[2017-04-30T05:40:59,398][INFO ][o.e.n.Node               ] initialized
+[2017-04-30T05:40:59,399][INFO ][o.e.n.Node               ] [qP3eFcg] starting ...
+[2017-04-30T05:40:59,772][WARN ][i.n.u.i.MacAddressUtil   ] Failed to find a usable hardware address from the network interfaces; using random bytes: d0:1f:d7:48:2f:b8:22:69
+[2017-04-30T05:40:59,911][INFO ][o.e.t.TransportService   ] [qP3eFcg] publish_address {103.29.69.75:9300}, bound_addresses {[::]:9300}
+[2017-04-30T05:40:59,930][INFO ][o.e.b.BootstrapChecks    ] [qP3eFcg] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2017-04-30T05:40:59,944][ERROR][o.e.b.Bootstrap          ] [qP3eFcg] node validation exception
+bootstrap checks failed
+max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+max number of threads [1024] for user [elasticsearch] is too low, increase to at least [2048]
+[2017-04-30T05:40:59,953][INFO ][o.e.n.Node               ] [qP3eFcg] stopping ...
+[2017-04-30T05:40:59,994][INFO ][o.e.n.Node               ] [qP3eFcg] stopped
+[2017-04-30T05:40:59,995][INFO ][o.e.n.Node               ] [qP3eFcg] closing ...
+[2017-04-30T05:41:00,024][INFO ][o.e.n.Node               ] [qP3eFcg] closed
+[2017-04-30T05:42:22,119][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-04-30T05:42:22,284][INFO ][o.e.e.NodeEnvironment    ] [qP3eFcg] using [1] data paths, mounts [[/ (/dev/sda)]], net usable_space [1.9gb], net total_space [23.3gb], spins? [possibly], types [ext4]
+[2017-04-30T05:42:22,285][INFO ][o.e.e.NodeEnvironment    ] [qP3eFcg] heap size [247.6mb], compressed ordinary object pointers [true]
+[2017-04-30T05:42:22,290][INFO ][o.e.n.Node               ] node name [qP3eFcg] derived from node ID [qP3eFcgvQIaqAqmH3ZoHEg]; set [node.name] to override
+[2017-04-30T05:42:22,292][INFO ][o.e.n.Node               ] version[5.3.2], pid[21153], build[3068195/2017-04-24T16:15:59.481Z], OS[Linux/4.9.7-x86_64-linode80/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-04-30T05:42:24,338][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [aggs-matrix-stats]
+[2017-04-30T05:42:24,343][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [ingest-common]
+[2017-04-30T05:42:24,344][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-expression]
+[2017-04-30T05:42:24,344][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-groovy]
+[2017-04-30T05:42:24,344][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-mustache]
+[2017-04-30T05:42:24,344][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-painless]
+[2017-04-30T05:42:24,344][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [percolator]
+[2017-04-30T05:42:24,345][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [reindex]
+[2017-04-30T05:42:24,345][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [transport-netty3]
+[2017-04-30T05:42:24,346][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [transport-netty4]
+[2017-04-30T05:42:24,347][INFO ][o.e.p.PluginsService     ] [qP3eFcg] no plugins loaded
+[2017-04-30T05:42:29,139][INFO ][o.e.n.Node               ] initialized
+[2017-04-30T05:42:29,146][INFO ][o.e.n.Node               ] [qP3eFcg] starting ...
+[2017-04-30T05:42:29,382][WARN ][i.n.u.i.MacAddressUtil   ] Failed to find a usable hardware address from the network interfaces; using random bytes: f1:f4:49:74:5b:68:46:76
+[2017-04-30T05:42:29,527][INFO ][o.e.t.TransportService   ] [qP3eFcg] publish_address {103.29.69.75:9300}, bound_addresses {[::]:9300}
+[2017-04-30T05:42:29,544][INFO ][o.e.b.BootstrapChecks    ] [qP3eFcg] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2017-04-30T05:42:29,557][ERROR][o.e.b.Bootstrap          ] [qP3eFcg] node validation exception
+bootstrap checks failed
+max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+max number of threads [1024] for user [elasticsearch] is too low, increase to at least [2048]
+[2017-04-30T05:42:29,568][INFO ][o.e.n.Node               ] [qP3eFcg] stopping ...
+[2017-04-30T05:42:29,611][INFO ][o.e.n.Node               ] [qP3eFcg] stopped
+[2017-04-30T05:42:29,612][INFO ][o.e.n.Node               ] [qP3eFcg] closing ...
+[2017-04-30T05:42:29,637][INFO ][o.e.n.Node               ] [qP3eFcg] closed
+[2017-04-30T05:42:44,989][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-04-30T05:42:45,199][INFO ][o.e.e.NodeEnvironment    ] [qP3eFcg] using [1] data paths, mounts [[/ (/dev/sda)]], net usable_space [1.9gb], net total_space [23.3gb], spins? [possibly], types [ext4]
+[2017-04-30T05:42:45,200][INFO ][o.e.e.NodeEnvironment    ] [qP3eFcg] heap size [247.6mb], compressed ordinary object pointers [true]
+[2017-04-30T05:42:45,203][INFO ][o.e.n.Node               ] node name [qP3eFcg] derived from node ID [qP3eFcgvQIaqAqmH3ZoHEg]; set [node.name] to override
+[2017-04-30T05:42:45,204][INFO ][o.e.n.Node               ] version[5.3.2], pid[21211], build[3068195/2017-04-24T16:15:59.481Z], OS[Linux/4.9.7-x86_64-linode80/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-04-30T05:42:47,266][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [aggs-matrix-stats]
+[2017-04-30T05:42:47,269][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [ingest-common]
+[2017-04-30T05:42:47,270][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-expression]
+[2017-04-30T05:42:47,270][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-groovy]
+[2017-04-30T05:42:47,270][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-mustache]
+[2017-04-30T05:42:47,271][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-painless]
+[2017-04-30T05:42:47,271][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [percolator]
+[2017-04-30T05:42:47,271][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [reindex]
+[2017-04-30T05:42:47,272][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [transport-netty3]
+[2017-04-30T05:42:47,276][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [transport-netty4]
+[2017-04-30T05:42:47,277][INFO ][o.e.p.PluginsService     ] [qP3eFcg] no plugins loaded
+[2017-04-30T05:42:52,081][INFO ][o.e.n.Node               ] initialized
+[2017-04-30T05:42:52,082][INFO ][o.e.n.Node               ] [qP3eFcg] starting ...
+[2017-04-30T05:42:52,302][WARN ][i.n.u.i.MacAddressUtil   ] Failed to find a usable hardware address from the network interfaces; using random bytes: e7:f5:4b:19:0f:2f:66:2f
+[2017-04-30T05:42:52,437][INFO ][o.e.t.TransportService   ] [qP3eFcg] publish_address {103.29.69.75:9300}, bound_addresses {[::]:9300}
+[2017-04-30T05:42:52,453][INFO ][o.e.b.BootstrapChecks    ] [qP3eFcg] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2017-04-30T05:42:52,473][ERROR][o.e.b.Bootstrap          ] [qP3eFcg] node validation exception
+bootstrap checks failed
+max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+max number of threads [1024] for user [elasticsearch] is too low, increase to at least [2048]
+[2017-04-30T05:42:52,480][INFO ][o.e.n.Node               ] [qP3eFcg] stopping ...
+[2017-04-30T05:42:52,522][INFO ][o.e.n.Node               ] [qP3eFcg] stopped
+[2017-04-30T05:42:52,522][INFO ][o.e.n.Node               ] [qP3eFcg] closing ...
+[2017-04-30T05:42:52,550][INFO ][o.e.n.Node               ] [qP3eFcg] closed
+[2017-04-30T05:43:49,829][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-04-30T05:43:50,022][INFO ][o.e.e.NodeEnvironment    ] [qP3eFcg] using [1] data paths, mounts [[/ (/dev/sda)]], net usable_space [1.9gb], net total_space [23.3gb], spins? [possibly], types [ext4]
+[2017-04-30T05:43:50,023][INFO ][o.e.e.NodeEnvironment    ] [qP3eFcg] heap size [247.6mb], compressed ordinary object pointers [true]
+[2017-04-30T05:43:50,026][INFO ][o.e.n.Node               ] node name [qP3eFcg] derived from node ID [qP3eFcgvQIaqAqmH3ZoHEg]; set [node.name] to override
+[2017-04-30T05:43:50,027][INFO ][o.e.n.Node               ] version[5.3.2], pid[21274], build[3068195/2017-04-24T16:15:59.481Z], OS[Linux/4.9.7-x86_64-linode80/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-04-30T05:43:52,024][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [aggs-matrix-stats]
+[2017-04-30T05:43:52,026][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [ingest-common]
+[2017-04-30T05:43:52,033][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-expression]
+[2017-04-30T05:43:52,033][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-groovy]
+[2017-04-30T05:43:52,033][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-mustache]
+[2017-04-30T05:43:52,034][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-painless]
+[2017-04-30T05:43:52,034][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [percolator]
+[2017-04-30T05:43:52,034][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [reindex]
+[2017-04-30T05:43:52,035][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [transport-netty3]
+[2017-04-30T05:43:52,035][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [transport-netty4]
+[2017-04-30T05:43:52,037][INFO ][o.e.p.PluginsService     ] [qP3eFcg] no plugins loaded
+[2017-04-30T05:43:56,798][INFO ][o.e.n.Node               ] initialized
+[2017-04-30T05:43:56,799][INFO ][o.e.n.Node               ] [qP3eFcg] starting ...
+[2017-04-30T05:43:57,005][WARN ][i.n.u.i.MacAddressUtil   ] Failed to find a usable hardware address from the network interfaces; using random bytes: 09:e8:be:38:c4:cc:91:24
+[2017-04-30T05:43:57,151][INFO ][o.e.t.TransportService   ] [qP3eFcg] publish_address {103.29.69.75:9300}, bound_addresses {[::]:9300}
+[2017-04-30T05:43:57,167][INFO ][o.e.b.BootstrapChecks    ] [qP3eFcg] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2017-04-30T05:43:57,183][ERROR][o.e.b.Bootstrap          ] [qP3eFcg] node validation exception
+bootstrap checks failed
+max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+max number of threads [1024] for user [elasticsearch] is too low, increase to at least [2048]
+[2017-04-30T05:43:57,197][INFO ][o.e.n.Node               ] [qP3eFcg] stopping ...
+[2017-04-30T05:43:57,234][INFO ][o.e.n.Node               ] [qP3eFcg] stopped
+[2017-04-30T05:43:57,235][INFO ][o.e.n.Node               ] [qP3eFcg] closing ...
+[2017-04-30T05:43:57,258][INFO ][o.e.n.Node               ] [qP3eFcg] closed
+[2017-04-30T05:51:17,464][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-04-30T05:51:17,653][INFO ][o.e.e.NodeEnvironment    ] [qP3eFcg] using [1] data paths, mounts [[/ (/dev/sda)]], net usable_space [1.9gb], net total_space [23.3gb], spins? [possibly], types [ext4]
+[2017-04-30T05:51:17,654][INFO ][o.e.e.NodeEnvironment    ] [qP3eFcg] heap size [247.6mb], compressed ordinary object pointers [true]
+[2017-04-30T05:51:17,657][INFO ][o.e.n.Node               ] node name [qP3eFcg] derived from node ID [qP3eFcgvQIaqAqmH3ZoHEg]; set [node.name] to override
+[2017-04-30T05:51:17,659][INFO ][o.e.n.Node               ] version[5.3.2], pid[21462], build[3068195/2017-04-24T16:15:59.481Z], OS[Linux/4.9.7-x86_64-linode80/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-04-30T05:51:19,748][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [aggs-matrix-stats]
+[2017-04-30T05:51:19,751][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [ingest-common]
+[2017-04-30T05:51:19,751][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-expression]
+[2017-04-30T05:51:19,753][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-groovy]
+[2017-04-30T05:51:19,753][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-mustache]
+[2017-04-30T05:51:19,753][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [lang-painless]
+[2017-04-30T05:51:19,753][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [percolator]
+[2017-04-30T05:51:19,756][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [reindex]
+[2017-04-30T05:51:19,756][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [transport-netty3]
+[2017-04-30T05:51:19,757][INFO ][o.e.p.PluginsService     ] [qP3eFcg] loaded module [transport-netty4]
+[2017-04-30T05:51:19,758][INFO ][o.e.p.PluginsService     ] [qP3eFcg] no plugins loaded
+[2017-04-30T05:51:24,522][INFO ][o.e.n.Node               ] initialized
+[2017-04-30T05:51:24,526][INFO ][o.e.n.Node               ] [qP3eFcg] starting ...
+[2017-04-30T05:51:24,924][WARN ][i.n.u.i.MacAddressUtil   ] Failed to find a usable hardware address from the network interfaces; using random bytes: b7:92:fa:14:86:a3:63:ab
+[2017-04-30T05:51:25,066][INFO ][o.e.t.TransportService   ] [qP3eFcg] publish_address {103.29.69.75:9300}, bound_addresses {[::]:9300}
+[2017-04-30T05:51:25,082][INFO ][o.e.b.BootstrapChecks    ] [qP3eFcg] bound or publishing to a non-loopback or non-link-local address, enforcing bootstrap checks
+[2017-04-30T05:51:28,220][INFO ][o.e.c.s.ClusterService   ] [qP3eFcg] new_master {qP3eFcg}{qP3eFcgvQIaqAqmH3ZoHEg}{a6k41BVJQI2Eyr27w6Tqtw}{103.29.69.75}{103.29.69.75:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-04-30T05:51:28,308][INFO ][o.e.h.n.Netty4HttpServerTransport] [qP3eFcg] publish_address {103.29.69.75:9200}, bound_addresses {[::]:9200}
+[2017-04-30T05:51:28,316][INFO ][o.e.n.Node               ] [qP3eFcg] started
+[2017-04-30T05:51:28,335][INFO ][o.e.g.GatewayService     ] [qP3eFcg] recovered [0] indices into cluster_state
+[2017-04-30T05:51:58,314][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:51:58,317][INFO ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2017-04-30T05:52:28,359][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:52:58,365][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:52:58,365][INFO ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2017-04-30T05:53:28,373][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:53:58,380][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:53:58,380][INFO ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2017-04-30T05:54:28,385][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:54:58,389][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:54:58,390][INFO ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2017-04-30T05:55:28,397][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:55:58,400][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:55:58,400][INFO ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2017-04-30T05:56:28,407][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:56:58,413][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:56:58,413][INFO ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2017-04-30T05:57:28,420][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:57:58,425][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:57:58,425][INFO ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2017-04-30T05:58:28,433][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:58:58,435][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
+[2017-04-30T05:58:58,435][INFO ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2017-04-30T05:59:28,441][WARN ][o.e.c.r.a.DiskThresholdMonitor] [qP3eFcg] high disk watermark [90%] exceeded on [qP3eFcgvQIaqAqmH3ZoHEg][qP3eFcg][/etc/elasticsearch-5.3.2/data/nodes/0] free: 1.9gb[8.2%], shards will be relocated away from this node
